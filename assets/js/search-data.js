@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "My education background and working experience.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -22,41 +22,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -71,6 +36,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
+              },
+            },{id: "dropdown-repositories",
+              title: "repositories",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/repositories/";
               },
             },{id: "post-a-post-with-plotly-js",
         
@@ -451,6 +423,24 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
+          section: "News",},{id: "news-here-comes-my-first-first-author-paper-a-new-sed-fitting-method-with-a-physical-prior",
+          title: 'Here comes my first first-author paper, a new SED fitting method with a...',
+          description: "",
+          section: "News",},{id: "news-giving-a-lunck-talk-swifar-ynu-about-our-recent-work-on-a-new-sed-fitting-method-see-more-details-and-the-notes-here",
+          title: 'Giving a lunck talk @ SWIFAR, YNU about our recent work on a...',
+          description: "",
+          section: "News",},{id: "news-my-collaborating-paper-on-a-centrally-gas-rich-lenticular-galaxy-pgc-39535-led-by-崔健童-jiantong-cui-is-accepted-by-apj",
+          title: 'My collaborating paper on A centrally gas-rich Lenticular Galaxy PGC 39535 led by...',
+          description: "",
+          section: "News",},{id: "news-my-collaborating-paper-on-accurate-sdss-halo-mass-estimation-led-by-赵丁燚-dingyi-zhao-is-accepted-by-apj",
+          title: 'My collaborating paper on Accurate SDSS halo mass estimation led by 赵丁燚 Dingyi...',
+          description: "",
+          section: "News",},{id: "news-my-collaborating-paper-on-the-critical-role-of-dark-matter-halos-in-driving-star-formation-led-by-窦晶-jing-dou-is-accepted-by-apjl",
+          title: 'My collaborating paper on The critical role of dark matter halos in driving...',
+          description: "",
+          section: "News",},{id: "news-my-collaborating-paper-on-formation-and-environmental-context-of-giant-bulgeless-disk-galaxies-in-the-early-universe-insights-from-cosmological-simulations-led-by-prof-姜方周-fangzhou-jiang-is-posted-on-arxiv",
+          title: 'My collaborating paper on Formation and Environmental Context of Giant Bulgeless Disk Galaxies...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -501,14 +491,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%7A%79%67%61%6F@%73%74%75.%70%6B%75.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Abrygzy", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-0182-1973", "_blank");
         },
       },{
         id: 'social-rss',
@@ -522,14 +519,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=xa7hKlsAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
