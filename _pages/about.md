@@ -33,4 +33,5 @@ My name is Zeyu Gao (高泽宇). I am a PhD student in the [Department of Astron
 I am also interested in understanding galaxies through spatially resolved view. I worked with [Prof. Yanmei Chen](https://astronomy.nju.edu.cn/szll/szgk/js/20190816/i13833.html) with breathtakingly beautiful [MaNGA](https://www.sdss4.org/dr17/manga/) data. We found observational clues for different quenching mechanisms in the local universe.
 
 
-**Notice that this website is still under construction. I will update it as soon as possible.**
+**Notice that this website is still under construction. I will update it as soon as possible. Last updated: May 03, 2025.**
+

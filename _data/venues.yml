@@ -1,9 +1,13 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# This file contains the list of venues and their associated colors.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org/
+  color: "#FF0000"
 
-"Vision":
-  color: "#009f36"
+"ApJL":
+  # url: https://arxiv.org/
+  color: "#87CEEB"
+
+"ApJ":
+  # url: https://arxiv.org/
+  color: "#0000FF"
