@@ -1,17 +1,18 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: A PhD student working on galaxy formation and evolution, <a href='https://kiaa.pku.edu.cn/'>KIAA</a>, Peking University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: gzy_head.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>zygao@stu.pku.edu.cn</p>
+    <p>KIAA 103</p>
+    <p>No.5 Yiheyuan Road</p>
+    <p>Haidian District, Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Zeyu Gao (高泽宇). I am a PhD student in the [Department of Astronomy](http://vega.bac.pku.edu.cn/)/[KIAA](https://kiaa.pku.edu.cn/) at [Peking University](http://www.pku.edu.cn/). I am working with [Prof. Yingjie Peng](https://kiaa.pku.edu.cn/info/1010/1016.htm) on the topics of understanding the formation and evolution of galaxies through their SEDs. We developed a new SED fitting code with physical priors of evolution history information from cosmological hydrosimulations. We have released our data for the SDSS DR7 Spectroscopic sample in the [Zenodo](https://zenodo.org/records/14209295), which includes stellar mass, star formation rate, and star formation history described by fractional formation times (T50, T70, T90). Take a look at our [paper](https://ui.adsabs.harvard.edu/abs/2025ApJ...979...66G/abstract) for more details.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am also interested in understanding galaxies through spatially resolved view. I worked with [Prof. Yanmei Chen](https://astronomy.nju.edu.cn/szll/szgk/js/20190816/i13833.html) with breathtakingly beautiful [MaNGA](https://www.sdss4.org/dr17/manga/) data. We found observational clues for different quenching mechanisms in the local universe.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+**Notice that this website is still under construction. I will update it as soon as possible.**
