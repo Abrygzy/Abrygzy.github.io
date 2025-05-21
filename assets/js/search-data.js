@@ -412,15 +412,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-here-comes-my-first-first-author-paper-a-new-sed-fitting-method-with-a-physical-prior",
@@ -441,7 +441,12 @@ ninja.data = [{
           section: "News",},{id: "news-my-collaborating-paper-on-formation-and-environmental-context-of-giant-bulgeless-disk-galaxies-in-the-early-universe-insights-from-cosmological-simulations-led-by-prof-姜方周-fangzhou-jiang-is-posted-on-arxiv",
           title: 'My collaborating paper on Formation and Environmental Context of Giant Bulgeless Disk Galaxies...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-a-new-github-repository-for-sed-fitting-tricks",
+          title: 'A new GitHub repository for SED fitting tricks',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/test/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
